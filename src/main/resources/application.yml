@@ -1,0 +1,19 @@
+server:
+  port: 49318
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  address: 0.0.0.0
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 20MB
+ocr:
+  image:
+    path: c:/OCR/uploads/

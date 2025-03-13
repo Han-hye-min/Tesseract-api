@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesseract API 테스트</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <h1>Tesseract API 테스트</h1>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <button id="processImage">Extract Text</button>
+    <div id="preview"></div>
+    <textarea id="output" placeholder="Extracted text will appear here..." readonly></textarea>
+</div>
+<script th:src="@{/js/script.js}"></script>
+</body>
+</html>
+
